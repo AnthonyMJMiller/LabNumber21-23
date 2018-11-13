@@ -10,7 +10,7 @@
 	rel="stylesheet">
 </head>
 <body>
-<p>Hello ${fName}, thanks for registering with GC Coffee!</p>
+${thankYou}
 <br><br>
 <a href = "/">Return to the Homepage!</a>
 </body>

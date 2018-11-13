@@ -8,35 +8,34 @@
 <link
 	href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/darkly/bootstrap.min.css"
 	rel="stylesheet">
+	<link rel="stylesheet" href="MainWeb.css">
 </head>
 <body>
 <br>
 <h2>Please fill out the fields below to register for a GC Coffee Account!</h2>
 <br>
 	<form action="Summary">
-		<div class="form-group">
-			<label for="fName">First Name:</label> <input name="fName" type="text"
-				 width="%60" pattern="[A-Z][a-z].{2,}" title="First letter must be capital and name must be 2 characters or longer" id="fName">
-		</div>
-		<div class="form-group">
-			<label for="lName">Last Name:</label> <input name="lName" type="text"
-				 width="%60" pattern="[A-Z][a-z].{2,}" title="First letter must be capital and name must be 2 characters or longer" id="lName">
-		</div>
-		<div class="form-group">
-			<label for="Email">Email address:</label> <input name="e  mail" type="email"
-				 width="%60" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Invalid Email format" id="Email">
-		</div>
-		<div class="form-group">
-			<label for="PhoneNumber">Phone No. (ex.xxx-xxx-xxxx):</label> <input name="PhoneNumber" type="number"
-				 width="%60" pattern="[0-9]{3}+-[0-9]{3}+-[0-9]{4}$" title="Invalid Phone No. format. format must match the following: (ex.xxx-xxx-xxxx)" id="PhoneNumber">
-		</div>
-		<div class="form-group">
-			<label for="Password">Password:</label> <input name="password" type="password" placeholder="Password"
-				 width="%60" pattern="(?=.*[0-9._%+-#!?&])(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one uppercase letter, one lowercase letter, one number and/or special character(._?+-!#&%), and be at least 8 characters long" id="Password">
+		<div>
+			First Name: <input name="fName" type="text"
+				 width="%60" pattern="[A-Za-z]{2,}" id="fName">
 		</div>
 		<div>
-		<label for="Confirm Password">Confirm Password:</label><input type="password" placeholder="Confirm Password" id="confirm_password" required>
+			Last Name: <input name="lName" type="text"
+				 width="%60" pattern="[A-Za-z]{2,}" id="lName">
 		</div>
+		<div>
+			Email address: <input name="email" type="email"
+				 width="%60" pattern="\w{5,30}@\w{5,10}[.]\w{2,4}"  id="Email">
+		</div>
+		<div>
+			Phone No. (ex.xxx-xxx-xxxx): <input name="PhoneNumber" type="text"
+				 width="%60" pattern="\d{3}-\d{3}-\d{4}"  id="PhoneNumber">
+		</div>
+		<div>
+			Password: <input name="password" type="password" placeholder="Password"
+				 width="%60" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" id="Password">
+		</div>
+		
 		<button type="submit" class="btn btn-primary">Complete Registration</button>
 	</form>
 </body>

@@ -10,6 +10,7 @@
 <link
 	href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/darkly/bootstrap.min.css"
 	rel="stylesheet">
+	<link rel="stylesheet" href="MainWeb.css">
 </head>
 <body>
 	<h1>Welcome to GC Coffee!</h1>
@@ -24,11 +25,14 @@
 		src="https://media-cdn.tripadvisor.com/media/photo-s/0d/da/0f/0b/hashtag-coffee-shop-order.jpg"
 		class="mx-auto d-block" class="rounded" width="300px">
 	<br>
+	
+	<p id="ShopCoffee">Shop and choose from our coffee selection by clicking the button below!</p>
+	<a href="selection" class="btn btn-info btn-primary" role="button" id="ShopButton">Shop Coffee!</a>
 	<br>
 
 	<div>
-	<p>Click the register button below to sign up for a GC Coffee account!</p>
-	<a href="Registration" class="btn btn-info btn-primary btn-block" role="button">Register!</a>
+	<p id="RegAccount">Click the register button below to sign up for a GC Coffee account!</p>
+	<a href="Registration" class="btn btn-info btn-primary" role="button" id="RegButton">Register!</a>
 	</div>
 </body>
 </html>

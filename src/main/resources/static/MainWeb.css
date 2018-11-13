@@ -1,0 +1,26 @@
+@charset "ISO-8859-1";
+body{
+			background-image: url('http://farm9.staticflickr.com/8489/8177710403_9c7ec42b15_b.jpg');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+}
+h1{
+	text-align: center;
+}
+
+#ShopCoffee{
+	text-align: center;
+}
+
+#RegAccount{
+	text-align: center;
+}
+
+#ShopButton{
+	button-align: center;
+}
+
+#RegButton{
+	button-align: center;
+}
